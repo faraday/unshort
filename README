@@ -1,0 +1,32 @@
+=============================================================
+unshort - Resolve final target of a shortened URL
+=============================================================
+
+Introduction
+------------
+
+Unshort resolves final target of any URL, following redirects.
+A certain depth can be specified to avoid endless follow.
+Primary use of `unshort` is resolving shortened URLs.
+
+Examples
+--------
+
+Resolve a short URL to a target URL
+
+>>> from unshort import resolve
+>>> resolve("https://goo.gl/c5v8aM")
+'https://github.com/faraday/unshort'
+
+
+Contact
+-------
+
+Author: Cagatay Calli <ccalli@gmail.com>
+Issue tracker: https://github.com/faraday/unshort/issues
+
+
+LICENSE
+---------
+
+BSD license. See the LICENSE file in the top level of the distribution
